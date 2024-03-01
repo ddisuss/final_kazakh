@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест на зависимость от интернета</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="internetAddictionTest">
+        <h2>Internetke táýeldilik testi</h2>
+        
+        <p>1. Internette kúnine qansha ýaqyt ótkizesiz?</p>
+        <input type="radio" id="q1_option1" name="q1" value="1 saǵattan az">
+        <label for="q1_option1">1 saǵattan az</label><br>
+        <input type="radio" id="q1_option2" name="q1" value="1-3 saǵat">
+        <label for="q1_option2">1-3 saǵat</label><br>
+        <input type="radio" id="q1_option3" name="q1" value="3-5 saǵat">
+        <label for="q1_option3">3-5 saǵat</label><br>
+        <input type="radio" id="q1_option4" name="q1" value="5 saǵattan astam">
+        <label for="q1_option4">5 saǵattan astam</label><br>
+        
+        <p>2. Siz áleýmettik medıany qanshalyqty jıi tekseresiz?</p>
+        <input type="radio" id="q2_option1" name="q2" value="Saǵatyna bir ret">
+        <label for="q2_option1">Saǵatyna bir ret</label><br>
+        <input type="radio" id="q2_option2" name="q2" value="Kúnine birneshe ret">
+        <label for="q2_option2">Kúnine birneshe ret</label><br>
+        <input type="radio" id="q2_option3" name="q2" value="Kúnine bir ret">
+        <label for="q2_option3">Kúnine bir ret</label><br>
+        <input type="radio" id="q2_option4" name="q2" value="Kúnine bir retten artyq emes">
+        <label for="q2_option4">Kúnine bir retten artyq emes</label><br>
+        
+        <p>3. Eger siz ınternetke kire almasańyz, ózińizdi qalaı sezinesiz?</p>
+        <input type="radio" id="q3_option1" name="q3" value="Jaqsy, bul maǵan áser etpeıdi">
+        <label for="q3_option1">Jaqsy, bul maǵan áser etpeıdi</label><br>
+        <input type="radio" id="q3_option2" name="q3" value="Biraz ýaıymdady (a)">
+        <label for="q3_option2">Biraz ýaıymdadymyn</label><br>
+        <input type="radio" id="q3_option3" name="q3" value="Óte alańdaýly(a)">
+        <label for="q3_option3">Óte ýaıymdadymyn</label><br>
+        <input type="radio" id="q3_option4" name="q3" value="Dúrbeleń qorqynyshy">
+        <label for="q3_option4">Dúrbeleń qorqynyshy</label><br>
+        
+        <p>4. Demalys kúnderi ınternette qalaı ýaqyt ótkizesiz?</p>
+        <input type="radio" id="q4_option1" name="q4" value="Jumys kúnderi sıaqty">
+        <label for="q4_option1">Jumys kúnderi sıaqty</label><br>
+        <input type="radio" id="q4_option2" name="q4" value="Jumys kúnderine qaraǵanda kóbirek ýaqyt">
+        <label for="q4_option2">Jumys kúnderine qaraǵanda kóbirek ýaqyt</label><br>
+        <input type="radio" id="q4_option3" name="q4" value="Jumys kúnderine qaraǵanda az ýaqyt">
+        <label for="q4_option3">Jumys kúnderine qaraǵanda az ýaqyt</label><br>
+        
+        <p>5. Úıden tys mobıldi ınternetti qanshalyqty jıi paıdalanasyz?</p>
+        <input type="radio" id="q5_option1" name="q5" value="Únemi, árqashan jelide">
+        <label for="q5_option1">Únemi, árqashan jelide</label><br>
+        <input type="radio" id="q5_option2" name="q5" value="Óte jıi">
+        <label for="q5_option2">Óte jıi</label><br>
+        <input type="radio" id="q5_option3" name="q5" value="Keıde">
+        <label for="q5_option3">Keıde</label><br>
+        <input type="radio" id="q5_option4" name="q5" value="Eshqashan derlik">
+        <label for="q5_option4">Eshqashan derlik</label><br>
+        
+        <button type="submit">Ұпайын есептеу</button>
+    </form>
+
+    <div id="result" style="display: none;">
+        <!-- Здесь будет результат теста -->
+    </div>
+
+    <!-- Блоки с различными верстками для разных результатов -->
+    <div id="internetDependent" class="result-block" style="display: none;">
+        <h3>Сіздің интернетке тәуелділігіңіз өте жоғары.</h3>
+        <p class="first-p">
+            Интернетке тәуелділіктің өте жоғары деңгейінде қарқынды емдеу қажет болуы мүмкін. Міне, тәуелділіктің ауырлығына негізделген бірнеше ұсыныстар:
+        </p>
+        <img src="family.jpg" alt="">
+        <img src="medicin.jpg" alt="">
+        <p class="second-p">
+            Шекараларды белгілеу: Интернетті пайдаланудың нақты шекараларын белгілеңіз және құрылғыларға немесе белгілі бір онлайн мазмұнға кіруді шектеу стратегияларын іске асырыңыз.
+
+            <br> <br> Араласу: қажет болса, алаңдаушылық білдіру және адамды тәуелділікке байланысты көмек сұрауға шақыру үшін жақын адамдарыңызбен араласуды жоспарлаңыз.
+
+            <br> <br> Кәсіптік терапия: тәуелділікке байланысты негізгі себептер мен мінез-құлық үлгілерін жою үшін тәуелділікті емдеуге маманданған психикалық денсаулық мамандарымен қарқынды терапия сеанстарына қатысыңыз.
+
+            <br> <br> Дәрі-дәрмекпен емдеу: кейбір жағдайларда негізгі психикалық бұзылуларды емдеу немесе Интернетті қолданумен байланысты обсессивті ойларды бақылау үшін дәрі-дәрмектер тағайындалуы мүмкін.
+
+            <br> <br> Когнитивті мінез-құлық терапиясы: интернетті мәжбүрлеп қолдануға ықпал ететін ойлар мен мінез-құлықтарды түсіну және өзгерту үшін сеанстарына қатысыңыз.
+
+            <br> <br> Бұл нұсқаулар Интернетке тәуелділіктің өте жоғары деңгейімен күресудің құрылымдық және қарқынды тәсілін қамтамасыз етуге және адамдарға өз өмірлерін бақылауды қалпына келтіруге қолдау көрсетуге бағытталған.
+        </p>
+    </div>
+    <div id="internetHigh" class="result-block" style="display: none;">
+        <h3>Сіздің интернетке тәуелділігіңіз жоғары.</h3>
+        <p class="first-p">Интернетке тәуелділіктің жоғары деңгейінде емдеу нұсқаларына мыналар жатады:</p>
+        <img src="семья.jpg" alt="">
+        <img src="box.jpg" alt="">
+        <p class="second-p">
+            Когнитивті мінез-құлық терапиясы (CBT): бұл терапия Интернетке тәуелділікке байланысты ойлау үлгілері мен сенімдерін өзгертуге бағытталған.
+
+            <br><br>Топтық терапия: терапияның бұл түрі адамдар өз тәжірибелерімен бөлісе алатын және бір-бірінен үйренетін топтық әрекеттерді қамтиды.
+
+            <br><br>Отбасылық терапия: Интернетке тәуелділік отбасылық қатынастарды бұзған кезде бұл тәсіл пайдалы болуы мүмкін.
+
+            <br><br>Кәсіби емдеу: бұл когнитивті мінез-құлық терапиясын қамтуы мүмкін, оның мақсаты адамға интернетті интрузивті емес, дұрыс пайдалануға мүмкіндік беру.
+
+            <br><br>Дәрі-дәрмекпен емдеу: кейбір жағдайларда дәрі-дәрмекпен емдеу негізгі психикалық аурудың белгілерін жою немесе интернетке қосылу туралы обсессивті ойларды бақылау үшін қолданылуы мүмкін.
+
+            <br><br>Жаттығу: интернетті шектеулі қолданудан туындаған мидағы допамин деңгейінің төмендеуінің әсерін жеңілдету үшін жаттығуларды Интернетке тәуелділікті емдеуге қосуға болады.
+
+            <br><br>Стационарлық емдеу: бұл белгілі бір қосымшаны пайдалануды шектеуге тырысқан адамдарға ұсынылуы мүмкін.
+
+            <br><br>Бұл емдеу нұсқалары адамдарға интернетті пайдалануды басқаруға және Интернетке тәуелділіктің олардың өміріне кері әсерін азайтуға көмектесуге бағытталған.
+        </p>
+    </div>
+    <div id="internetAverage" class="result-block" style="display: none;">
+        <h3>Сізде интернет тәуелділігіңіз орташа.</h3>
+        <p class="first-p">Интернетке тәуелділікті емдеудің орташа нұсқалары мыналарды қамтиды:</p>
+        <img src="motivation.jpg" alt="">
+        <img src="target.jpg" alt="">
+        <p class="second-p" >
+            <br>- Когнитивті мінез-құлық терапиясы: бұл терапия Интернетке тәуелділікпен байланысты ойлау мен сенім үлгілерін өзгертуге бағытталған.
+            <br>- Мотивацияны арттыру терапиясы: бұл тәсіл адамдарға әдеттерінен бас тартудың артықшылықтарын түсінуге көмектеседі және оң өзгерістер енгізуге қолдау көрсетеді.
+            <br>- Топтық терапия: терапияның бұл түрі адамдар өз тәжірибелерімен бөлісе алатын және бір-бірінен үйренетін топтық әрекеттерді қамтиды.
+            <br>- Зейін техникасы: олар адамдарға интернетті пайдалануды басқаруға және Интернетті шамадан тыс пайдалануға деген ұмтылысты азайтуға көмектеседі.
+            <br>- Мақсат қою: бұл әдіс Интернетті пайдалануды азайту және оларды сақтау үшін нақты мақсаттар қоюды қамтиды .
+            <br>- Селективті абстиненция: бұл адам басқара алмайтын белгілі бір қосымшалардан бас тартуды қамтиды .
+
+            <br>Бұл емдеу нұсқалары адамдарға интернетті пайдалануды басқаруға және Интернетке тәуелділіктің олардың өміріне кері әсерін азайтуға көмектесуге бағытталған.
+        </p>
+    </div>
+    <div id="internetLow" class="result-block" style="display: none;">
+        <h3>Сізде интернетке тәуелділігі төмен.</h3>
+        <img src="похвала.png" alt="">
+        <img src="похвалаә.jpg" alt="">
+        <p class="first-p">
+            Қазіргі уақытта, интернет біздің күнделікті өміріміздің ажырамас бөлігіне айналған кезде, оған тәуелділіктің төмен деңгейі шынымен құнды. Біріншіден, бұл сізде виртуалды және нақты әлем арасында сау тепе-теңдік бар дегенді білдіреді. Сіз цифрлық саладан тыс сәттерді бағалай аласыз, адамдармен жеке қарым-қатынас жасай аласыз, қоршаған табиғаттан ләззат ала аласыз немесе үнемі желіде болмай-ақ хобби жасай аласыз.
+        </p>
+
+        <p class="second-p">
+            Сонымен қатар, Интернетке тәуелділіктің төмен деңгейі уақытты тиімді пайдалануға мүмкіндік береді. Сіз жаңалықтар арнасын немесе әлеуметтік медианы шексіз айналдырудан аулақ бола отырып, желіден қандай ақпарат алатыныңызды саналы түрде таңдай аласыз. Бұл жұмыс, оқу немесе жеке дағдыларды дамыту сияқты өмірдің басқа салаларында өнімділік пен шоғырлануды арттыруға көмектеседі.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
